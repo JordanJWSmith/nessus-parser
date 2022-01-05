@@ -74,6 +74,7 @@ export default {
           password: this.form.password,
         }
       ).then(response => {
+        console.log('response: ', response)
         localStorage.auth = response.data.token
         this.$router.push({name: 'dashboard'})
       }).catch(error => {

@@ -5,6 +5,7 @@ import App from './App.vue'
 import Dashboard from './components/Dashboard.vue'
 import Login from './components/Login.vue'
 import Logout from './components/Logout.vue'
+import report from './components/report.vue'
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
@@ -32,6 +33,11 @@ const routes = [
     path: '/logout',
     name: 'logout',
     component: Logout
+  },
+  {
+    path: '/report/:id',
+    name: 'report',
+    component: report
   }
 ]
 
