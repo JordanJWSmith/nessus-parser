@@ -7,7 +7,7 @@ RUN apk add --update alpine-sdk
 
 # Copy requirements.txt before code to let Docker cache Python dependencies
 COPY ./requirements.txt .
-RUN pip3 install -r requirements.txt
+RUN pip install -r requirements.txt
 
 COPY . /srv
 
