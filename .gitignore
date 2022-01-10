@@ -2,6 +2,7 @@
 node_modules
 /dist
 __pycache__
+\src\backend\logging.log
 
 # db files
 db.sqlite3

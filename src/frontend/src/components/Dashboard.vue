@@ -1,7 +1,7 @@
 <template>
   <div>
   <b-navbar toggleable="lg" type="dark" variant="info">
-    <b-navbar-brand :to="{name: 'dashboard'}">Coding Test: Jordan</b-navbar-brand>
+    <b-navbar-brand :to="{name: 'dashboard'}">Nessus Parser</b-navbar-brand>
     <b-collapse id="nav-collapse" is-nav>
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
