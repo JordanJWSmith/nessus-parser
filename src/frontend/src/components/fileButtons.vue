@@ -5,6 +5,10 @@
 			<hr/>
                 <div v-if="fileList.length > 0">
                     <table>
+                        <tr>
+                            <th>File Name</th>
+                            <th></th>
+                        </tr>
                         <tr 
                         v-for="(file, index) in fileList"
                         :key="index"
@@ -82,6 +86,10 @@
 <style scoped>
 .delete-button {
     margin: 30px;
+}
+
+th {
+    min-width: 10vw;
 }
 
 </style>
